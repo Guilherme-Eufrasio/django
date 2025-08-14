@@ -1,1 +1,14 @@
+{% extends "base.html" %}
+{% block 'head' %}
+<style>
+    body{
+        background-color: blue;
+    }
+</style>
+{% endblock %}
+
+{% block 'body' %}
 <h1>contato</h1>
+<p>{{nome}}</p>
+<a>{{idade}}</a>
+{% endblock %}

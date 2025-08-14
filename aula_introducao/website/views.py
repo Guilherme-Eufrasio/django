@@ -5,4 +5,6 @@ def home(request):
     return render(request, 'index.html')
 
 def contato(request):
-    return render(request, 'contato.html')
+    nome="guizao"
+    idade="17"
+    return render(request, 'contato.html', {'nome':nome, 'idade':idade})
